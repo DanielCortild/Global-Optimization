@@ -1,0 +1,6 @@
+numpy
+tabulate
+tqdm
+multiprocess
+dill
+matplotlib
