@@ -60,7 +60,7 @@ class Algorithm:
             samples = list(tqdm(pool.imap(generate_task, range(self.M)), total=self.M, desc="Generating Samples"))
 
         # Format the data to save it
-        samples_filename = f'output/data/{self.title}_{time.time()}.pickle'
+        samples_filename = f'temp_output/data/{self.title}_{time.time()}.pickle'
         samples_data = {
             "samples": samples,
             "title": self.title,
@@ -77,10 +77,10 @@ class Algorithm:
         }
 
         # Save all the data
-        if not os.path.exists("output"):
-            os.makedirs("output")
-        if not os.path.exists("output/data"):
-            os.makedirs("output/data")
+        if not os.path.exists("temp_output"):
+            os.makedirs("temp_output")
+        if not os.path.exists("temp_output/data"):
+            os.makedirs("temp_output/data")
         with open(samples_filename, 'wb') as handle:
             dill.dump(samples_data, handle)
             print(f"[SUCCESS] Samples dumped successfully into file {samples_filename}")
@@ -95,6 +95,13 @@ class Algorithm:
         gamma   = a / 10
         sigx2   = beta / a
         sigy2   = alpha / 10
+
+        # delta   = self.h
+        # alpha   = 1
+        # beta    = 1
+        # gamma   = 1
+        # sigx2   = beta / a
+        # sigy2   = alpha * gamma / a
 
         # Pre-compute values, to avoid repeated computations
         e       = np.exp(-alpha*delta)

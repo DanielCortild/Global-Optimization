@@ -11,13 +11,10 @@ dU = lambda x: 2 * x + 2 * np.pi * np.sin(2*np.pi*x)
 initial = lambda: np.random.multivariate_normal(np.zeros(d) + 3, 10 * np.eye(d))
 
 # Compute iterates according to algorithm
-algorithm = DNLA.Algorithm(d=d, M=100, N=10, K=14000, h=0.01, title=title, U=U, dU=dU, initial=initial)
-samples_filename = algorithm.generate_samples(As=[4,12,20,40], sim_annealing=True)
+# algorithm = DNLA.Algorithm(d=d, M=100, N=10, K=14000, h=0.01, title=title, U=U, dU=dU, initial=initial)
+# samples_filename = algorithm.generate_samples(As=[4,12,20,40], sim_annealing=True)
+samples_filename = "output/saved_data/Rastrigin_14000SimAnn.pickle"
 
 # Plot empirical probabilities
 postprocessor = DNLA.PostProcessor(samples_filename)
 postprocessor.plot_empirical_probabilities(dpi=10, layout="13", tols=[0.5,1,2], running=False)
-
-# Compute table of averages and standard deviations
-# postprocessor.compute_tables([5, 14], 1, "mean")
-# postprocessor.compute_tables([5, 14], 1, "std")

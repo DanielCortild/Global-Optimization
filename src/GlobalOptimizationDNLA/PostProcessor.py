@@ -37,10 +37,10 @@ class PostProcessor:
 
         # Create subplots
         tiles = (1, 3) if layout == "13" else (2, 3)
-        fig, axs = plt.subplots(*tiles, figsize=(9, 3) if layout == "13" else (9, 6), sharex=True, sharey=True)
+        fig, axs = plt.subplots(*tiles, figsize=(9, 2.5) if layout == "13" else (9, 4.5), sharex=True, sharey=True)
 
         # Set title to subplots
-        fig.suptitle(rf"Empirical $P(U(X_k)-U^*\leq \varepsilon)$ for {self.title} function with $d={self.d}$")
+        # fig.suptitle(rf"Empirical $P(U(X_k)-U^*\leq \varepsilon)$ for {self.title} function with $d={self.d}$")
 
         def plot_tol_curve(p_idx):
             # Retrieve tolerance and axis
@@ -84,7 +84,7 @@ class PostProcessor:
         handles, labels = ax.get_legend_handles_labels()
         plt.tight_layout()
         fig.legend(handles, labels, loc='lower center', ncol=len(self.As), bbox_to_anchor=(0.5, 0))
-        plt.subplots_adjust(bottom=0.3 if layout == "13" else 0.15)
+        plt.subplots_adjust(bottom=0.35 if layout == "13" else 0.2)
 
         # Save and show plot
         if not os.path.exists("output"):
@@ -107,7 +107,7 @@ class PostProcessor:
             bests_sub[0] = f"a={a}"
             for i, k in enumerate(measured):
                 if running:
-                    bsts = [min([min([self.U(x[kk-1]) for kk in range(dpi, k + dpi, dpi)]) for x in samples[i]]) for samples in self.samples]
+                    bsts = [min([min([self.U(x[kk-1]) for kk in range(dpi, k + dpi, dpi)]) for x in samples[task_nb]]) for samples in self.samples]
                 else:
                     bsts = [min([U(x[k-1]) for x in samples[task_nb]]) for samples in self.samples]
                 if mode == "mean":

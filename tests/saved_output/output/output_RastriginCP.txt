@@ -1,0 +1,75 @@
+Initializing Algorithm for Rastrigin with d=10, M=100, N=1, K=140000, h=0.01
+Generating samples for a in [4, 12, 20, 40] with sim_annealing=True
+[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724838601.391934.pickle
+Started Loading Data for PostProcessor... Finished in 1.7945587635040283 seconds
+
+mean    K=140000
+------  ----------
+a=4     & 0.1401
+a=12    & 0.0628
+a=20    & 0.0785
+a=40    & 0.1409
+
+mean.T    a=4       a=12      a=20      a=40
+--------  --------  --------  --------  --------
+K=140000  & 0.1401  & 0.0628  & 0.0785  & 0.1409
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [4, 12, 20, 40] with sim_annealing=True
+[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724839278.086125.pickle
+Started Loading Data for PostProcessor... Finished in 2.0369672775268555 seconds
+
+mean    K=14000
+------  ---------
+a=4     & 0.1433
+a=12    & 0.0476
+a=20    & 0.0540
+a=40    & 0.1755
+
+mean.T    a=4       a=12      a=20      a=40
+--------  --------  --------  --------  --------
+K=14000   & 0.1433  & 0.0476  & 0.0540  & 0.1755
+Initializing Algorithm for Rastrigin with d=10, M=100, N=100, K=1400, h=0.01
+Generating samples for a in [4, 12, 20, 40] with sim_annealing=True
+[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724839949.1713798.pickle
+Started Loading Data for PostProcessor... Finished in 1.8351831436157227 seconds
+
+mean    K=1400
+------  --------
+a=4     & 0.1966
+a=12    & 0.2286
+a=20    & 1.3114
+a=40    & 4.4323
+
+mean.T    a=4       a=12      a=20      a=40
+--------  --------  --------  --------  --------
+K=1400    & 0.1966  & 0.2286  & 1.3114  & 4.4323
+Initializing Algorithm for Rastrigin with d=10, M=100, N=1000, K=140, h=0.01
+Generating samples for a in [4, 12, 20, 40] with sim_annealing=True
+[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724840615.6842537.pickle
+Started Loading Data for PostProcessor... Finished in 1.8577933311462402 seconds
+
+mean    K=140
+------  ---------
+a=4     & 3.6529
+a=12    & 8.7814
+a=20    & 11.1672
+a=40    & 12.5576
+
+mean.T    a=4       a=12      a=20       a=40
+--------  --------  --------  ---------  ---------
+K=140     & 3.6529  & 8.7814  & 11.1672  & 12.5576
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10000, K=14, h=0.01
+Generating samples for a in [4, 12, 20, 40] with sim_annealing=True
+[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724841309.9032576.pickle
+Started Loading Data for PostProcessor... Finished in 1.8395190238952637 seconds
+
+mean    K=14
+------  ---------
+a=4     & 16.2062
+a=12    & 16.0138
+a=20    & 16.0228
+a=40    & 16.1602
+
+mean.T    a=4        a=12       a=20       a=40
+--------  ---------  ---------  ---------  ---------
+K=14      & 16.2062  & 16.0138  & 16.0228  & 16.1602
