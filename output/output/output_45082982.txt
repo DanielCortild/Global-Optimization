@@ -1,5 +1,0 @@
-Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.01
-Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
-[SUCCESS] Samples dumped successfully into file output/data/Rastrigin_1724766908.8497598.pickle
-Started Loading Data for PostProcessor... Finished in 1.7372105121612549 seconds
-[SUCCESS] Saving plot to output/plots/Rastrigin_1724767365.4647799.png
