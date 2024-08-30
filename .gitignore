@@ -2,4 +2,3 @@ temp_output
 data
 venv
 __pycache__
-tests/main.sh
