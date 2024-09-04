@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -J test14                               # Job name
+#SBATCH -J testSA                               # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # Exclusivity requested
@@ -8,4 +8,5 @@
 #SBATCH --error=output/error/error_%j.txt       # Error file
 
 . ../venv/bin/activate
-python3 Rastrigin14000.py $*
+module load Python/3.11.5-GCCcore-13.2.0
+python3 Rastrigin14000SimAnn.py $*

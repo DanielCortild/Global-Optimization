@@ -32,20 +32,18 @@ class PostProcessor:
 
     def plot_empirical_probabilities(self, dpi, layout="23", tols=[1,2,3,4,5,6], running=False):
         # Ensure layout is valid
-        if layout not in ["13", "23"]:
-            raise ValueError("layout must be one of '13' or '23'")
+        if layout not in ["13", "23", "32", "22"]:
+            raise ValueError("layout must be one of '13', '23', '32' or '22'")
 
         # Create subplots
-        tiles = (1, 3) if layout == "13" else (2, 3)
-        fig, axs = plt.subplots(*tiles, figsize=(9, 2.5) if layout == "13" else (9, 4.5), sharex=True, sharey=True)
-
-        # Set title to subplots
-        # fig.suptitle(rf"Empirical $P(U(X_k)-U^*\leq \varepsilon)$ for {self.title} function with $d={self.d}$")
+        tiles = (int(layout[0]), int(layout[1]))
+        figsize = {"13": (9, 2.5), "23": (9, 4.5), "32": (5, 6), "22": (5, 4)}
+        fig, axs = plt.subplots(*tiles, figsize=figsize[layout], sharex=True, sharey=True)
 
         def plot_tol_curve(p_idx):
             # Retrieve tolerance and axis
             tol = tols[p_idx]
-            ax = axs[p_idx // 3][p_idx % 3] if layout == "23" else axs[p_idx]
+            ax = axs[p_idx // int(layout[1])][p_idx % int(layout[1])] if layout[0] != "1" else axs[p_idx]
 
             # Plot a curve per value of a
             for i, a in enumerate(self.As):
@@ -67,12 +65,12 @@ class PostProcessor:
                 ax.set_xlim(0, self.K-1)
 
                 # Add a badge 
-                ax.text(0.95, 0.95, rf"$\varepsilon={tol}$", transform=ax.transAxes, fontsize=10, verticalalignment='top', horizontalalignment='right', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+                ax.text(0.95, 0.93, rf"$\varepsilon={tol}$", transform=ax.transAxes, fontsize=10, verticalalignment='top', horizontalalignment='right', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
                 
                 # Set axis labels depending on positive
-                if (p_idx // 3 == 0 and layout == "13") or (p_idx // 3 == 1 and layout == "23"):
+                if p_idx // int(layout[1]) == int(layout[0]) - 1 :
                     ax.set_xlabel(r"Iteration count ($k$)")
-                if p_idx % 3 == 0:
+                if p_idx % int(layout[1]) == 0:
                     ax.set_ylabel(rf"$P(U(X_k)-U^*\leq \varepsilon)$")
 
         # Plot each tolerance plot
@@ -80,11 +78,12 @@ class PostProcessor:
             plot_tol_curve(i)
 
         # Create figure legend
-        ax = axs[0][0] if layout == "23" else axs[0]
+        ax = axs[0][0] if layout[0] in ["2", "3"] else axs[0]
         handles, labels = ax.get_legend_handles_labels()
         plt.tight_layout()
         fig.legend(handles, labels, loc='lower center', ncol=len(self.As), bbox_to_anchor=(0.5, 0))
-        plt.subplots_adjust(bottom=0.35 if layout == "13" else 0.2)
+        bottom = {"13": 0.35, "23": 0.2, "32": 0.15, "22": 0.2}
+        plt.subplots_adjust(bottom=bottom[layout])
 
         # Save and show plot
         if not os.path.exists("output"):

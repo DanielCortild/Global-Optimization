@@ -17,4 +17,4 @@ samples_filename = algorithm.generate_samples(As=[1,2,3,4], sim_annealing=False)
 
 # Plot empirical probabilities
 postprocessor = DNLA.PostProcessor(samples_filename)
-postprocessor.plot_empirical_probabilities(dpi=10, layout="23", tols=[1,2,3,4,5,6], running=False)
+postprocessor.plot_empirical_probabilities(dpi=10, layout="32", tols=[1,2,3,4,5,6], running=False)

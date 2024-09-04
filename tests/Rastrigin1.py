@@ -16,7 +16,7 @@ samples_filename = algorithm.generate_samples(As=[1,2,3,4], sim_annealing=False)
 
 # Plot empirical probabilities
 postprocessor = DNLA.PostProcessor(samples_filename)
-postprocessor.plot_empirical_probabilities(dpi=1, layout="13", tols=[1,2,3], running=False)
+postprocessor.plot_empirical_probabilities(dpi=1, layout="22", tols=[1,2,3,4], running=False)
 
 # Compute table of averages and standard deviations
 # postprocessor.compute_tables([5, 14], 1, "mean")
