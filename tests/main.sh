@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -J testSA                               # Job name
+#SBATCH -J test100                               # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # Exclusivity requested
@@ -9,4 +9,4 @@
 
 . ../venv/bin/activate
 module load Python/3.11.5-GCCcore-13.2.0
-python3 Rastrigin14000SimAnn.py $*
+python3 Rastrigin100000.py $*
