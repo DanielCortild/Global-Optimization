@@ -13,7 +13,6 @@ initial = lambda: np.random.multivariate_normal(np.zeros(d) + 3, 10 * np.eye(d))
 # Compute iterates according to algorithm
 algorithm = DNLA.Algorithm(d=d, M=100, N=10, K=100000, h=0.01, title=title, U=U, dU=dU, initial=initial)
 samples_filename = algorithm.generate_samples(As=[4,5,6,7,8], sim_annealing=False)
-# samples_filename = "output/saved_data/Rastrigin_100000.pickle"
 
 # Plot empirical probabilities
 postprocessor = DNLA.PostProcessor(samples_filename)

@@ -19,5 +19,5 @@ postprocessor = DNLA.PostProcessor(samples_filename)
 postprocessor.plot_empirical_probabilities(dpi=1, layout="22", tols=[1,2,3,4], running=False)
 
 # Compute table of averages and standard deviations
-# postprocessor.compute_tables([5, 14], 1, "mean")
-# postprocessor.compute_tables([5, 14], 1, "std")
+postprocessor.compute_tables([5, 14], 1, "mean")
+postprocessor.compute_tables([5, 14], 1, "std")

@@ -1,3 +1,17 @@
+Metadata-Version: 2.1
+Name: GlobalOptimizationHRLA
+Version: 1.0.2
+Summary: A package to solve global optimization problems in small dimensions. The method is based on sampling algorithms, and specifically implements the high-resolution Langevin algorithm
+Author-email: Daniel Cortild <d.cortild@rug.nl>
+Project-URL: Homepage, https://github.com/DanielCortild/GlobalOptimization
+Project-URL: Bug Tracker, https://github.com/DanielCortild/GlobalOptimization/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
 # Global Optimization through High-Resolution Sampling
 
 This package provides functions to run a global optimization algorithm, specifically designed to explore the properties of high-dimensional functions through High-Resolution sampling. It is based on the [following paper](https://arxiv.org/abs/2410.13737). The package includes tools for defining functions, setting optimization parameters, generating samples, and visualizing empirical probabilities.
