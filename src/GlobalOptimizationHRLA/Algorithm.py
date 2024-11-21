@@ -120,6 +120,6 @@ class Algorithm:
         cov_matrix = np.block([[cov_xx, cov_xy], [cov_xy, cov_yy]])
 
         # Sample new point
-        znew = np.random.multivariate_normal(mean_matrix, cov_matrix)
+        znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
 
         return znew[:self.d], znew[self.d:]

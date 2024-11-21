@@ -1,0 +1,76 @@
+Starting Network Pricing problem with S=2, N=2, D=2, beta=0.05, E=Matrix([[10, 120], [130, 10]]), lam_bar=Matrix([[6], [1]])
+Initializing Algorithm for NetworkPricing with d=4, M=100, N=10, K=1400, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/NetworkPricing_1731671966.125818.pickle
+Started Loading Data for PostProcessor... Finished in 0.11816191673278809 seconds
+
+mean    K=700         K=1400
+------  ------------  ------------
+a=1     & -1385.9113  & -1409.6556
+a=2     & -1399.3182  & -1422.9749
+a=3     & -1394.1232  & -1423.5459
+a=4     & -1391.0945  & -1422.2023
+
+mean.T    a=1           a=2           a=3           a=4
+--------  ------------  ------------  ------------  ------------
+K=700     & -1385.9113  & -1399.3182  & -1394.1232  & -1391.0945
+K=1400    & -1409.6556  & -1422.9749  & -1423.5459  & -1422.2023
+
+best    K=700         K=1400
+------  ------------  ------------
+a=1     & -1503.8261  & -1503.8261
+a=2     & -1516.1048  & -1516.1048
+a=3     & -1515.6003  & -1527.5187
+a=4     & -1531.3420  & -1541.7626
+
+best.T    a=1           a=2           a=3           a=4
+--------  ------------  ------------  ------------  ------------
+K=700     & -1503.8261  & -1516.1048  & -1515.6003  & -1531.3420
+K=1400    & -1503.8261  & -1516.1048  & -1527.5187  & -1541.7626
+Best value for a=1: [5.26851145 1.177642   5.11162913 1.07387706]
+Best value for a=2: [4.61698849 9.46458522 5.40268536 0.7242823 ]
+Best value for a=3: [5.43722015 2.0086481  5.39012607 0.51787362]
+Best value for a=4: [5.17775879 1.11206116 5.06289368 0.35882001]
+
+###############################################################################
+Hábrók Cluster
+Job 13833620 for user s4279239
+Finished at: Fri Nov 15 13:23:57 CET 2024
+
+Job details:
+============
+
+Job ID                         : 13833620
+Name                           : NP
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node105
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2024-11-15T11:30:59
+Start                          : 2024-11-15T12:27:33
+End                            : 2024-11-15T13:23:53
+Reserved walltime              :   01:00:00
+Used walltime                  :   00:56:20
+Used CPU time                  : 2-05:36:04 (Efficiency: 44.60%)
+% User (Computation)           : 99.96%
+% System (I/O)                 :  0.04%
+Total memory reserved          : 2000M
+Maximum memory used            : 2.50G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################
