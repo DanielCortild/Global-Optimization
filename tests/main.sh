@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -J NP                                   # Job name
+#SBATCH -J RCUO                                 # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # No other jobs can share nodes with this job
@@ -9,4 +9,4 @@
 
 . ../venv/bin/activate
 module load Python/3.11.5-GCCcore-13.2.0
-python3 NetworkPricing.py $*
+python3 RastriginCompare.py $*

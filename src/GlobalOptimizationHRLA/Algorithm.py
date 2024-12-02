@@ -137,25 +137,58 @@ class AlgorithmULA(AlgorithmClass):
         # Compute parameters of algorithms
         delta   = self.h
 
-        v0 = np.sqrt(a) * y0
+        b = 10
+        gamma = 1
+        sigma2 = gamma / b
+        u = a / b
+
+        v0 = y0
 
         # Pre-compute values, to avoid repeated computations
-        e       = np.exp(-2*delta)
+        e = np.exp(-gamma*delta)
         dU0 = self.dU(x0)
-        u = a
 
         # Compute mean matrix
-        mean_x = x0 + (1 - e)  / 2 * v0 - u / (2) * (delta - (1 - e) / 2) * dU0
-        mean_v = e * v0 - u * (1 - e) / 2 * dU0
+        mean_x = x0 + (1 - e) / gamma * v0 - u / gamma * (delta - (1 - e) / gamma) * dU0
+        mean_v = e * v0 - u / gamma * (1 - e) * dU0
         mean_matrix = np.block([mean_x, mean_v])
 
         # Compute covariance matrix
-        cov_xx = (delta - e ** 2 / 4 - 3 / 4 + e) * np.eye(self.d) * u
-        cov_vv = (1 - e ** 2) * np.eye(self.d) * u
-        cov_xv = (1 + e ** 2 - 2 * e) * np.eye(self.d) / 2 * u
+        cov_xx = 2 * sigma2 / (gamma ** 2) * (delta - 2 * (1-e) / gamma + (1 - e ** 2) / (2 * gamma) ) * np.eye(self.d)
+        cov_vv = 2 * sigma2 / (2 * gamma ** 2) * (1 - e ** 2) * np.eye(self.d)
+        cov_xv = 2 * sigma2 / gamma * ((1 - e) / gamma - (1 - e ** 2) / (2 * gamma)) * np.eye(self.d)
         cov_matrix = np.block([[cov_xx, cov_xv], [cov_xv, cov_vv]])
 
         # Sample new point
         znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
 
-        return znew[:self.d], znew[self.d:] / np.sqrt(a)
+        return znew[:self.d], znew[self.d:]
+
+
+class AlgorithmOLA(AlgorithmClass):
+    def __init__(self, d, M, N, K, h, title, U, dU, initial):
+        super().__init__(d, M, N, K, h, title, U, dU, initial)
+
+    def _iterate(self, x0, y0, a):
+        # Compute parameters of algorithms
+        delta   = self.h
+        gamma = 1
+
+        # Pre-compute values, to avoid repeated computations
+        dU0 = self.dU(x0)
+
+        # Compute mean matrix
+        mean_x = x0 - gamma * delta * dU0
+        mean_y = 0 * dU0
+        mean_matrix = np.block([mean_x, mean_y])
+
+        # Compute covariance matrix
+        cov_xx = 2 * gamma * delta / a * np.eye(self.d)
+        cov_yy = 0 * np.eye(self.d)
+        cov_xy = 0 * np.eye(self.d)
+        cov_matrix = np.block([[cov_xx, cov_xy], [cov_xy, cov_yy]])
+
+        # Sample new point
+        znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+
+        return znew[:self.d], znew[self.d:]
