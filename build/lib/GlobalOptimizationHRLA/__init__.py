@@ -1,2 +1,2 @@
 from .PostProcessor import PostProcessor
-from .Algorithm import AlgorithmHRLA, AlgorithmULA
+from .Algorithm import HRLA, ULA, OLA

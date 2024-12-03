@@ -5,7 +5,7 @@ from tqdm import tqdm
 import multiprocess as mp
 import dill
 
-class AlgorithmClass:
+class Algorithm:
     def __init__(self, d, M, N, K, h, title, U, dU, initial):
         print(f"Initializing Algorithm for {title} with d={d}, M={M}, N={N}, K={K}, h={h}")
         self.d = d
@@ -88,8 +88,9 @@ class AlgorithmClass:
     def _iterate(self, x0, y0, a):
         raise NotImplementedError("The iterate method must be implemented in the child class")
 
-class AlgorithmHRLA(AlgorithmClass):
+class HRLA(Algorithm):
     def __init__(self, d, M, N, K, h, title, U, dU, initial):
+        print(f"HRLA instantiating {title}")
         super().__init__(d, M, N, K, h, title, U, dU, initial)
 
     def _iterate(self, x0, y0, a):
@@ -97,9 +98,10 @@ class AlgorithmHRLA(AlgorithmClass):
         delta   = self.h
         alpha   = 1
         beta    = 1
-        gamma   = a / 10
+        b = 10
+        gamma   = a / b
         sigx2   = beta / a
-        sigy2   = alpha / 10
+        sigy2   = alpha / b
 
         # delta   = self.h
         # alpha   = 1
@@ -129,33 +131,64 @@ class AlgorithmHRLA(AlgorithmClass):
 
         return znew[:self.d], znew[self.d:]
 
-class AlgorithmULA(AlgorithmClass):
+class ULA(Algorithm):
     def __init__(self, d, M, N, K, h, title, U, dU, initial):
+        print(f"ULA instantiating {title}")
         super().__init__(d, M, N, K, h, title, U, dU, initial)
 
     def _iterate(self, x0, y0, a):
         # Compute parameters of algorithms
         delta   = self.h
 
-        v0 = np.sqrt(a) * y0
+        b = 10
+        alpha = 10
+        sigma2 = alpha / b
+        gamma = a / b
+
+        v0 = y0
 
         # Pre-compute values, to avoid repeated computations
-        e       = np.exp(-2*delta)
+        e = np.exp(-alpha * delta)
         dU0 = self.dU(x0)
-        u = a
 
         # Compute mean matrix
-        mean_x = x0 + (1 - e)  / 2 * v0 - u / (2) * (delta - (1 - e) / 2) * dU0
-        mean_v = e * v0 - u * (1 - e) / 2 * dU0
+        mean_x = x0 + (1 - e) / alpha * v0 - gamma / alpha * (delta - (1 - e) / alpha) * dU0
+        mean_v = e * v0 - gamma / alpha * (1 - e) * dU0
         mean_matrix = np.block([mean_x, mean_v])
 
         # Compute covariance matrix
-        cov_xx = (delta - e ** 2 / 4 - 3 / 4 + e) * np.eye(self.d) * u
-        cov_vv = (1 - e ** 2) * np.eye(self.d) * u
-        cov_xv = (1 + e ** 2 - 2 * e) * np.eye(self.d) / 2 * u
+        cov_xx = 2 * sigma2 / (alpha ** 2) * (delta - 2 * (1 - e) / alpha + (1 - e ** 2) / (2 * alpha) ) * np.eye(self.d)
+        cov_vv = 2 * sigma2 / (2 * alpha ** 2) * (1 - e ** 2) * np.eye(self.d)
+        cov_xv = 2 * sigma2 / alpha * ((1 - e) / alpha - (1 - e ** 2) / (2 * alpha)) * np.eye(self.d)
         cov_matrix = np.block([[cov_xx, cov_xv], [cov_xv, cov_vv]])
 
         # Sample new point
         znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
 
-        return znew[:self.d], znew[self.d:] / np.sqrt(a)
+        return znew[:self.d], znew[self.d:]
+
+
+class OLA(Algorithm):
+    def __init__(self, d, M, N, K, h, title, U, dU, initial):
+        print(f"OLA instantiating {title}")
+        super().__init__(d, M, N, K, h, title, U, dU, initial)
+
+    def _iterate(self, x0, y0, a):
+        # Compute parameters of algorithms
+        delta   = self.h
+        gamma = 0.1
+        sigma2 = alpha / a
+
+        # Pre-compute values, to avoid repeated computations
+        dU0 = self.dU(x0)
+
+        # Compute mean matrix
+        mean_x = x0 - alpha * delta * dU0
+
+        # Compute covariance matrix
+        cov_xx = 2 * sigma2 * delta * np.eye(self.d)
+
+        # Sample new point
+        znew = np.random.multivariate_normal(mean_x.astype(float), cov_xx.astype(float))
+
+        return znew, y0
