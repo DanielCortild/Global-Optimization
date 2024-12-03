@@ -1,0 +1,41 @@
+Initializing Algorithm for Rastrigin with d=50, M=100, N=10, K=100000, h=0.01
+Generating samples for a in [4, 5, 6, 7, 8] with sim_annealing=False
+
+CANCELLED after 19h20
+
+###############################################################################
+Hábrók Cluster
+Job 13994116 for user s4279239
+Finished at: Tue Dec  3 11:58:23 CET 2024
+
+Job details:
+============
+
+Job ID                         : 13994116
+Name                           : HHD
+User                           : s4279239
+Partition                      : regularmedium
+Nodes                          : node34
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : CANCELLED by user  
+Submit                         : 2024-12-02T14:49:06
+Start                          : 2024-12-02T16:36:18
+End                            : 2024-12-03T11:58:23
+Reserved walltime              :   1-00:00:00
+Used walltime                  :     19:22:05
+Used CPU time                  : 102-09:44:11 (Efficiency: 99.14%)
+% User (Computation)           : 100.00%
+% System (I/O)                 :  0.00%
+Total memory reserved          : 2000M
+Maximum memory used            : 4.90G
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

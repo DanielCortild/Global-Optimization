@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000.py", line 12, in <module>
+    algorithm = HRLA.Algorithm(d=d, M=100, N=10, K=100000, h=0.01, title=title, U=U, dU=dU, initial=initial)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable

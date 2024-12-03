@@ -1,19 +1,19 @@
-Initializing Algorithm for Rastrigin with d=15, M=100, N=10, K=100000, h=0.01
-Generating samples for a in [4, 5, 6, 7, 8] with sim_annealing=False
-[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin_1733147997.9051511.pickle
-Started Loading Data for PostProcessor... Finished in 9.834347248077393 seconds
-[SUCCESS] Saving plot to output/plots/Rastrigin_1733150101.5453556.png
+Initializing Algorithm for Rastrigin ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA_1733153754.995578.pickle
+Started Loading Data for PostProcessor... Finished in 1.3892741203308105 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA_1733153777.0278926.png
 
 ###############################################################################
 Hábrók Cluster
-Job 13992580 for user s4279239
-Finished at: Mon Dec  2 15:35:02 CET 2024
+Job 13994110 for user s4279239
+Finished at: Mon Dec  2 16:36:17 CET 2024
 
 Job details:
 ============
 
-Job ID                         : 13992580
-Name                           : MD
+Job ID                         : 13994110
+Name                           : RCUO
 User                           : s4279239
 Partition                      : regularmedium
 Nodes                          : node34
@@ -21,11 +21,11 @@ Number of Nodes                : 1
 Cores                          : 128
 Number of Tasks                : 1
 State                          : RUNNING  
-Submit                         : 2024-12-02T12:25:26
-Start                          : 2024-12-02T14:44:05
+Submit                         : 2024-12-02T14:46:10
+Start                          : 2024-12-02T16:34:24
 End                            : --
 Reserved walltime              : 1-00:00:00
-Used walltime                  :   00:50:57
+Used walltime                  :   00:01:53
 Used CPU time                  : -- 
 % User (Computation)           : --
 % System (I/O)                 : --

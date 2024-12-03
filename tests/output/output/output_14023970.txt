@@ -1,0 +1,47 @@
+Initializing Algorithm for Rastrigin ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA_1733239075.7544122.pickle
+Started Loading Data for PostProcessor... Finished in 1.302640676498413 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA_1733239098.4548926.png
+Initializing Algorithm for Rastrigin OLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin OLA_1733239167.7551827.pickle
+Started Loading Data for PostProcessor... Finished in 1.0429778099060059 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin OLA_1733239189.0776777.png
+
+###############################################################################
+Hábrók Cluster
+Job 14023970 for user s4279239
+Finished at: Tue Dec  3 16:19:49 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14023970
+Name                           : RC2
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node102
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2024-12-03T15:24:29
+Start                          : 2024-12-03T16:16:30
+End                            : --
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:03:19
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

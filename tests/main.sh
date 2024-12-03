@@ -1,9 +1,9 @@
 #!/bin/sh
-#SBATCH -J RCUO                                 # Job name
+#SBATCH -J RC2                                  # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # No other jobs can share nodes with this job
-#SBATCH -t 24:00:00                             # Time requested in hour:minute:second
+#SBATCH -t 0:15:00                              # Time requested in hour:minute:second
 #SBATCH --output=output/output/output_%j.txt    # Output file
 #SBATCH --error=output/error/error_%j.txt       # Error file
 
