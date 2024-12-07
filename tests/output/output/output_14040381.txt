@@ -1,0 +1,69 @@
+
+HRLA with b=5, alpha=1, beta=1
+HRLA instantiating Rastrigin HRLA0
+Initializing Algorithm for Rastrigin HRLA0 with d=10, M=100, N=10, K=14000, h=0.05
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA0_1733334063.652944.pickle
+Started Loading Data for PostProcessor... Finished in 1.262000560760498 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA0_1733334104.3998415.png
+
+HRLA with b=5, alpha=1, beta=2
+HRLA instantiating Rastrigin HRLA1
+Initializing Algorithm for Rastrigin HRLA1 with d=10, M=100, N=10, K=14000, h=0.05
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA1_1733334189.7453868.pickle
+Started Loading Data for PostProcessor... Finished in 1.064110517501831 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA1_1733334231.023977.png
+
+HRLA with b=5, alpha=2, beta=1
+HRLA instantiating Rastrigin HRLA2
+Initializing Algorithm for Rastrigin HRLA2 with d=10, M=100, N=10, K=14000, h=0.05
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA2_1733334320.172208.pickle
+Started Loading Data for PostProcessor... Finished in 1.0767221450805664 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA2_1733334353.055902.png
+
+HRLA with b=5, alpha=2, beta=2
+HRLA instantiating Rastrigin HRLA3
+Initializing Algorithm for Rastrigin HRLA3 with d=10, M=100, N=10, K=14000, h=0.05
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA3_1733334441.2804592.pickle
+Started Loading Data for PostProcessor... Finished in 1.042503833770752 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA3_1733334468.5756323.png
+
+###############################################################################
+Hábrók Cluster
+Job 14040381 for user s4279239
+Finished at: Wed Dec  4 18:47:49 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14040381
+Name                           : RC2
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node110
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2024-12-04T18:36:48
+Start                          : 2024-12-04T18:39:36
+End                            : --
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:08:13
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

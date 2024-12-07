@@ -132,16 +132,18 @@ class HRLA(Algorithm):
         return znew[:self.d], znew[self.d:]
 
 class ULA(Algorithm):
-    def __init__(self, d, M, N, K, h, title, U, dU, initial):
+    def __init__(self, d, M, N, K, h, title, U, dU, initial, b=10, alpha=1):
         print(f"ULA instantiating {title}")
+        self.b = b
+        self.alpha = alpha
         super().__init__(d, M, N, K, h, title, U, dU, initial)
 
     def _iterate(self, x0, y0, a):
         # Compute parameters of algorithms
         delta   = self.h
 
-        b = 10
-        alpha = 10
+        b = self.b
+        alpha = self.alpha
         sigma2 = alpha / b
         gamma = a / b
 
@@ -169,14 +171,15 @@ class ULA(Algorithm):
 
 
 class OLA(Algorithm):
-    def __init__(self, d, M, N, K, h, title, U, dU, initial):
+    def __init__(self, d, M, N, K, h, title, U, dU, initial, alpha=1):
         print(f"OLA instantiating {title}")
+        self.alpha = alpha
         super().__init__(d, M, N, K, h, title, U, dU, initial)
 
     def _iterate(self, x0, y0, a):
         # Compute parameters of algorithms
         delta   = self.h
-        gamma = 0.1
+        alpha = self.alpha
         sigma2 = alpha / a
 
         # Pre-compute values, to avoid repeated computations

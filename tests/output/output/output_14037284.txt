@@ -1,0 +1,97 @@
+HRLA instantiating Rastrigin HRLA
+Initializing Algorithm for Rastrigin HRLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA_1733319620.1404557.pickle
+Started Loading Data for PostProcessor... Finished in 1.0422005653381348 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA_1733319644.262572.png
+ULA instantiating Rastrigin ULA1
+Initializing Algorithm for Rastrigin ULA1 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA1_1733319754.451634.pickle
+Started Loading Data for PostProcessor... Finished in 0.910635232925415 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA1_1733319781.2551646.png
+ULA instantiating Rastrigin ULA2
+Initializing Algorithm for Rastrigin ULA2 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA2_1733319891.5479512.pickle
+Started Loading Data for PostProcessor... Finished in 0.9306318759918213 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA2_1733319916.08305.png
+ULA instantiating Rastrigin ULA3
+Initializing Algorithm for Rastrigin ULA3 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA3_1733320035.7574735.pickle
+Started Loading Data for PostProcessor... Finished in 0.9568338394165039 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA3_1733320060.530865.png
+ULA instantiating Rastrigin ULA4
+Initializing Algorithm for Rastrigin ULA4 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA4_1733320179.842818.pickle
+Started Loading Data for PostProcessor... Finished in 0.8922812938690186 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA4_1733320205.1132572.png
+ULA instantiating Rastrigin ULA5
+Initializing Algorithm for Rastrigin ULA5 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA5_1733320319.5337772.pickle
+Started Loading Data for PostProcessor... Finished in 0.9117143154144287 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA5_1733320344.580052.png
+OLA instantiating Rastrigin OLA1
+Initializing Algorithm for Rastrigin OLA1 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin OLA1_1733320402.7072558.pickle
+Started Loading Data for PostProcessor... Finished in 0.8629567623138428 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin OLA1_1733320425.2030268.png
+OLA instantiating Rastrigin OLA2
+Initializing Algorithm for Rastrigin OLA2 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin OLA2_1733320484.995064.pickle
+Started Loading Data for PostProcessor... Finished in 0.8397359848022461 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin OLA2_1733320508.1274502.png
+OLA instantiating Rastrigin OLA3
+Initializing Algorithm for Rastrigin OLA3 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin OLA3_1733320569.719556.pickle
+Started Loading Data for PostProcessor... Finished in 0.8578798770904541 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin OLA3_1733320594.0864885.png
+
+###############################################################################
+Hábrók Cluster
+Job 14037284 for user s4279239
+Finished at: Wed Dec  4 14:56:34 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14037284
+Name                           : RC2
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node112
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2024-12-04T13:49:45
+Start                          : 2024-12-04T14:38:42
+End                            : 2024-12-04T14:56:34
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:17:52
+Used CPU time                  : 21:51:10 (Efficiency: 57.33%)
+% User (Computation)           : 99.66%
+% System (I/O)                 :  0.34%
+Total memory reserved          : 2000M
+Maximum memory used            : 23.62G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

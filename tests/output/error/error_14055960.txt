@@ -1,0 +1,5 @@
+
+[notice] A new release of pip is available: 23.2.1 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [17:12<28:23:28, 1032.41s/it]Generating Samples:   2%|▏         | 2/100 [17:27<11:48:58, 434.07s/it] Generating Samples:   5%|▌         | 5/100 [17:33<3:17:35, 124.79s/it] Generating Samples:   9%|▉         | 9/100 [17:41<1:21:37, 53.82s/it] Generating Samples:  12%|█▏        | 12/100 [17:49<50:23, 34.35s/it] Generating Samples: 100%|██████████| 100/100 [17:49<00:00, 10.70s/it]
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [55:34<91:42:07, 3334.62s/it]Generating Samples:   3%|▎         | 3/100 [56:53<24:04:53, 893.75s/it] Generating Samples:  11%|█         | 11/100 [57:43<4:20:48, 175.83s/it]Generating Samples:  17%|█▋        | 17/100 [58:19<2:14:07, 96.96s/it] Generating Samples:  19%|█▉        | 19/100 [59:10<1:53:28, 84.05s/it]Generating Samples: 100%|██████████| 100/100 [59:10<00:00, 35.50s/it] 

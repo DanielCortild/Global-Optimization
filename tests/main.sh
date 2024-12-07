@@ -1,12 +1,16 @@
 #!/bin/sh
-#SBATCH -J RC2                                  # Job name
+#SBATCH -J HDb                                 # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # No other jobs can share nodes with this job
-#SBATCH -t 0:15:00                              # Time requested in hour:minute:second
+#SBATCH -t 3:00:00                              # Time requested in hour:minute:second
 #SBATCH --output=output/output/output_%j.txt    # Output file
 #SBATCH --error=output/error/error_%j.txt       # Error file
 
-. ../venv/bin/activate
+cd ..
+. venv/bin/activate
 module load Python/3.11.5-GCCcore-13.2.0
-python3 RastriginCompare.py $*
+python3 -m build
+python3 -m pip install . --upgrade
+cd tests
+python3 Rastrigin100000HD.py $*

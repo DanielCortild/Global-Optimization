@@ -1,0 +1,240 @@
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [01:35<2:37:53, 95.69s/it]Generating Samples:   2%|▏         | 2/100 [01:36<1:05:05, 39.86s/it]Generating Samples:   9%|▉         | 9/100 [01:37<08:53,  5.87s/it]  Generating Samples:  14%|█▍        | 14/100 [01:37<04:30,  3.14s/it]Generating Samples: 100%|██████████| 100/100 [01:37<00:00,  1.03it/s]
+Plotting Empirical Probabilities:   0%|          | 0/4 [00:00<?, ?it/s]Plotting Empirical Probabilities:  25%|██▌       | 1/4 [00:03<00:11,  3.72s/it]Plotting Empirical Probabilities:  50%|█████     | 2/4 [00:07<00:07,  3.72s/it]Plotting Empirical Probabilities:  75%|███████▌  | 3/4 [00:11<00:03,  3.72s/it]Plotting Empirical Probabilities: 100%|██████████| 4/4 [00:14<00:00,  3.72s/it]Plotting Empirical Probabilities: 100%|██████████| 4/4 [00:14<00:00,  3.72s/it]
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py:166: RuntimeWarning: covariance is not symmetric positive-semidefinite.
+  znew = np.random.multivariate_normal(mean_matrix.astype(float), cov_matrix.astype(float))
+Generating Samples:   1%|          | 1/100 [01:44<2:52:36, 104.61s/it]Generating Samples:   2%|▏         | 2/100 [01:46<1:11:42, 43.90s/it] Generating Samples:  11%|█         | 11/100 [01:46<07:39,  5.16s/it] Generating Samples:  36%|███▌      | 36/100 [01:46<01:13,  1.15s/it]Generating Samples:  48%|████▊     | 48/100 [01:46<00:39,  1.32it/s]Generating Samples:  98%|█████████▊| 98/100 [01:46<00:00,  4.03it/s]Generating Samples: 100%|██████████| 100/100 [01:46<00:00,  1.07s/it]
+Plotting Empirical Probabilities:   0%|          | 0/4 [00:00<?, ?it/s]Plotting Empirical Probabilities:  25%|██▌       | 1/4 [00:03<00:11,  3.73s/it]Plotting Empirical Probabilities:  50%|█████     | 2/4 [00:07<00:07,  3.74s/it]Plotting Empirical Probabilities:  75%|███████▌  | 3/4 [00:11<00:03,  3.74s/it]Plotting Empirical Probabilities: 100%|██████████| 4/4 [00:14<00:00,  3.74s/it]Plotting Empirical Probabilities: 100%|██████████| 4/4 [00:14<00:00,  3.74s/it]
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]
+multiprocess.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/multiprocess/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py", line 54, in <lambda>
+    generate_task = lambda task_nb: np.array([self.__get_samples(a, sim_annealing, seed=42+task_nb) for a in As])
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py", line 54, in <listcomp>
+    generate_task = lambda task_nb: np.array([self.__get_samples(a, sim_annealing, seed=42+task_nb) for a in As])
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py", line 45, in __get_samples
+    x0, y0 = self._iterate(x0, y0, ak)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py", line 180, in _iterate
+    sigma2 = alpha / a
+             ^^^^^
+NameError: name 'alpha' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/RastriginCompare.py", line 27, in <module>
+    samples_filename_OLA = algorithmOLA.generate_samples(As=[1,2,3,4], sim_annealing=False)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithm.py", line 58, in generate_samples
+    samples = list(tqdm(pool.imap(generate_task, range(self.M)), total=self.M, desc="Generating Samples"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/multiprocess/pool.py", line 873, in next
+    raise value
+NameError: name 'alpha' is not defined

@@ -1,0 +1,61 @@
+
+HRLA instantiating HRLA
+Initializing Algorithm for HRLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA_1733393151.957939.pickle
+Started Loading Data for PostProcessor... Finished in 0.9371085166931152 seconds
+[SUCCESS] Saving plot to output/plots/HRLA_1733393175.3760126.png
+ULA instantiating ULA
+Initializing Algorithm for ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/ULA_1733393274.4859369.pickle
+Started Loading Data for PostProcessor... Finished in 0.8518557548522949 seconds
+[SUCCESS] Saving plot to output/plots/ULA_1733393296.8942444.png
+OLA instantiating OLA
+Initializing Algorithm for OLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/OLA_1733393352.4873893.pickle
+Started Loading Data for PostProcessor... Finished in 0.8514025211334229 seconds
+[SUCCESS] Saving plot to output/plots/OLA_1733393374.6718373.png
+Started Loading Data for PostProcessor... Finished in 1.1391539573669434 seconds
+Started Loading Data for PostProcessor... Finished in 1.0502955913543701 seconds
+Started Loading Data for PostProcessor... Finished in 1.0333325862884521 seconds
+[SUCCESS] Saving plot to output/plots/Comparator_1733393389.731113.png
+[SUCCESS] Saving plot to output/plots/Comparator_1733393401.621744.png
+
+###############################################################################
+Hábrók Cluster
+Job 14046146 for user s4279239
+Finished at: Thu Dec  5 11:10:02 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14046146
+Name                           : COMP
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node114
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2024-12-05T11:04:22
+Start                          : 2024-12-05T11:04:23
+End                            : --
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:05:39
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

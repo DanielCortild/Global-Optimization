@@ -1,0 +1,55 @@
+HRLA instantiating Rastrigin HRLA
+Initializing Algorithm for Rastrigin HRLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA_1733251040.1408617.pickle
+Started Loading Data for PostProcessor... Finished in 0.936448335647583 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA_1733251062.6928637.png
+ULA instantiating Rastrigin ULA
+Initializing Algorithm for Rastrigin ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA_1733251173.2229.pickle
+Started Loading Data for PostProcessor... Finished in 0.8349239826202393 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA_1733251195.2708876.png
+OLA instantiating Rastrigin OLA
+Initializing Algorithm for Rastrigin OLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin OLA_1733251253.8905513.pickle
+Started Loading Data for PostProcessor... Finished in 1.1775736808776855 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin OLA_1733251276.4984996.png
+
+###############################################################################
+Hábrók Cluster
+Job 14028436 for user s4279239
+Finished at: Tue Dec  3 19:41:18 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14028436
+Name                           : RC2
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node106
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2024-12-03T19:29:13
+Start                          : 2024-12-03T19:35:20
+End                            : --
+Reserved walltime              : 00:15:00
+Used walltime                  : 00:05:58
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,8 @@
+
+[notice] A new release of pip is available: 23.2.1 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000HD.py", line 13, in <module>
+    samples_filename10 = algorithm.generate_samples(As=[4,5,6,7,8], sim_annealing=False)
+                         ^^^^^^^^^
+NameError: name 'algorithm' is not defined. Did you mean: 'algorithm10'?

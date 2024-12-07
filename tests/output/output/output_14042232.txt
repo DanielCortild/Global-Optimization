@@ -1,0 +1,60 @@
+
+HRLA instantiating Rastrigin HRLA
+Initializing Algorithm for Rastrigin HRLA with d=10, M=100, N=10, K=14000, h=0.05
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin HRLA_1733344609.7092578.pickle
+Started Loading Data for PostProcessor... Finished in 1.1329872608184814 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin HRLA_1733344632.6441739.png
+ULA instantiating Rastrigin ULA
+Initializing Algorithm for Rastrigin ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin ULA_1733344717.2220395.pickle
+Started Loading Data for PostProcessor... Finished in 1.0000872611999512 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin ULA_1733344738.5251658.png
+Started Loading Data for PostProcessor... Finished in 1.2690129280090332 seconds
+Started Loading Data for PostProcessor... Finished in 1.1494717597961426 seconds
+[SUCCESS] Saving plot to output/plots/Comparator_1733344772.138861.png
+[SUCCESS] Saving plot to output/plots/Comparator_1733344803.0844364.png
+
+###############################################################################
+Hábrók Cluster
+Job 14042232 for user s4279239
+Finished at: Wed Dec  4 21:40:08 CET 2024
+
+Job details:
+============
+
+Job ID                         : 14042232
+Name                           : COMP
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node110
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2024-12-04T21:02:35
+Start                          : 2024-12-04T21:35:21
+End                            : 2024-12-04T21:40:06
+Reserved walltime              : 01:00:00
+Used walltime                  : 00:04:45
+Used CPU time                  : 04:26:33 (Efficiency: 43.84%)
+% User (Computation)           : 99.74%
+% System (I/O)                 :  0.25%
+Total memory reserved          : 2000M
+Maximum memory used            : 16.77G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

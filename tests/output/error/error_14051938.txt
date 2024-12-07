@@ -1,0 +1,21 @@
+
+[notice] A new release of pip is available: 23.2.1 -> 24.3.1
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000HDb.py", line 8, in <module>
+    comparator.plot_empirical_probabilities_per_d(dpi=100, tols=[2,4], running=False)
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/PostProcessing/Comparator.py", line 51, in plot_empirical_probabilities_per_d
+    plot_empirical_probabilities(post_processor, i, axs[pi], pi, "12", dpi, tols[pi], running, "d")
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/PostProcessing/plot_empirical_probabilities.py", line 7, in plot_empirical_probabilities
+    bests_U = [min([post_processor.U(x[k]) for x in samples[i]]) for samples in post_processor.samples]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/PostProcessing/plot_empirical_probabilities.py", line 7, in <listcomp>
+    bests_U = [min([post_processor.U(x[k]) for x in samples[i]]) for samples in post_processor.samples]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/PostProcessing/plot_empirical_probabilities.py", line 7, in <listcomp>
+    bests_U = [min([post_processor.U(x[k]) for x in samples[i]]) for samples in post_processor.samples]
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000HD.py", line 6, in <lambda>
+    U = lambda x: d + np.linalg.norm(x) ** 2 - np.sum(np.cos(2*np.pi*x))
+                  ^
+NameError: name 'd' is not defined. Did you mean: 'id'?
