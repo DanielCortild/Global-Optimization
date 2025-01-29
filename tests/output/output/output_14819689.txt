@@ -1,0 +1,54 @@
+HRLA instantiating HRLA10
+Initializing Algorithm for HRLA10 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA10_1737920085.6610541.pickle
+HRLA instantiating HRLA20
+Initializing Algorithm for HRLA20 with d=20, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA20_1737920455.539557.pickle
+Started Loading Data for PostProcessor... Finished in 1.1738417148590088 seconds
+Started Loading Data for PostProcessor... Finished in 1.5629596710205078 seconds
+[SUCCESS] Saving plot to output/plots/Comparator_1737921219.9461174.png
+
+###############################################################################
+Hábrók Cluster
+Job 14819689 for user s4279239
+Finished at: Sun Jan 26 20:53:40 CET 2025
+
+Job details:
+============
+
+Job ID                         : 14819689
+Name                           : HDb
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node78
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-01-26T18:51:47
+Start                          : 2025-01-26T20:33:15
+End                            : 2025-01-26T20:53:40
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:20:25
+Used CPU time                  : 14:07:38 (Efficiency: 32.43%)
+% User (Computation)           : 99.90%
+% System (I/O)                 :  0.11%
+Total memory reserved          : 2000M
+Maximum memory used            : 12.57G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

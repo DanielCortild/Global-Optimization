@@ -1,0 +1,9 @@
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [01:23<2:18:26, 83.91s/it]Generating Samples:   4%|▍         | 4/100 [01:24<25:34, 15.99s/it]  Generating Samples:   8%|▊         | 8/100 [01:24<09:41,  6.32s/it]Generating Samples: 100%|██████████| 100/100 [01:24<00:00,  1.18it/s]
+Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [01:20<2:13:04, 80.66s/it]Generating Samples:   2%|▏         | 2/100 [01:22<55:36, 34.04s/it]  Generating Samples:   3%|▎         | 3/100 [01:22<30:02, 18.58s/it]Generating Samples:   7%|▋         | 7/100 [01:22<08:08,  5.25s/it]Generating Samples:   9%|▉         | 9/100 [01:23<05:19,  3.51s/it]Generating Samples:  21%|██        | 21/100 [01:23<01:14,  1.06it/s]Generating Samples:  22%|██▏       | 22/100 [01:24<01:08,  1.14it/s]Generating Samples:  29%|██▉       | 29/100 [01:24<00:35,  1.98it/s]Generating Samples:  52%|█████▏    | 52/100 [01:24<00:08,  5.98it/s]Generating Samples: 100%|██████████| 100/100 [01:24<00:00,  1.18it/s]
+Traceback (most recent call last):
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/RastriginDimension.py", line 31, in <module>
+    comparator.plot_empirical_probabilities_per_d_e(dpi=10, tols=[2, 4], ds=[10, 20], running=False)
+  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/../src/GlobalOptimizationHRLA/PostProcessing/Comparator.py", line 96, in plot_empirical_probabilities_per_d_e
+    for j, d_temp in enumerate(post_processor.ds):
+                               ^^^^^^^^^^^^^^^^^
+AttributeError: 'PostProcessor' object has no attribute 'ds'. Did you mean: 'As'?

@@ -12,9 +12,9 @@ def plot_empirical_probabilities(post_processor, i, ax, p_idx, layout, dpi, tol,
             probs[k // dpi] = max(probs[k // dpi], probs[k // dpi - 1])
 
     # Plot the computed curve
-    if comp == "eps" or comp == "d":
+    if comp == "eps" or comp == "d" or comp == "d_tol":
         label = rf"$a={post_processor.As[i]}$" if not post_processor.sim_annealing else r"$\overline{a}=$" + rf"${post_processor.As[i]}$"
-    elif comp == "a":
+    elif comp == "a" or comp == "a_tol":
         label = rf"{post_processor.title}"
     else:
         raise NotImplementedError(f"Unknown comparison type {comp}")
@@ -29,6 +29,10 @@ def plot_empirical_probabilities(post_processor, i, ax, p_idx, layout, dpi, tol,
         badge = rf"$\varepsilon={tol}$"
     elif comp == "a":
         badge = rf"$a={post_processor.As[i]}$"
+    elif comp == "a_tol":
+        badge = rf"$a={post_processor.As[i]}, \varepsilon={tol}$"
+    elif comp == "d_tol":
+        badge = rf"$d={post_processor.d}, \varepsilon={tol}$"
     elif comp == "d":
         badge = rf"$\varepsilon={tol}, d={post_processor.d}$"
     else:

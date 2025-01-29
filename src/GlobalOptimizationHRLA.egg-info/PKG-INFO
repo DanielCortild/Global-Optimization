@@ -1,6 +1,6 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: GlobalOptimizationHRLA
-Version: 1.0.10
+Version: 1.1.0
 Summary: A package to solve global optimization problems in small dimensions. The method is based on sampling algorithms, and specifically implements the high-resolution Langevin algorithm.
 Author-email: Daniel Cortild <d.cortild@rug.nl>
 Project-URL: Homepage, https://github.com/DanielCortild/GlobalOptimization

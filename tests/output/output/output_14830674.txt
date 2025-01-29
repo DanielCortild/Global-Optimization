@@ -1,0 +1,51 @@
+HRLA instantiating Rastrigin
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin_1737992800.1013203.pickle
+Started Loading Data for PostProcessor... Finished in 0.8360145092010498 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin_1737993031.3928952.png
+Started Loading Data for PostProcessor... Finished in 1.0123522281646729 seconds
+[SUCCESS] Saving plot to output/plots/Rastrigin_1737993184.3482773.png
+
+###############################################################################
+Hábrók Cluster
+Job 14830674 for user s4279239
+Finished at: Mon Jan 27 16:53:04 CET 2025
+
+Job details:
+============
+
+Job ID                         : 14830674
+Name                           : 14000
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node97
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-01-27T16:26:55
+Start                          : 2025-01-27T16:45:10
+End                            : 2025-01-27T16:53:04
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:07:54
+Used CPU time                  : 02:20:18 (Efficiency: 13.87%)
+% User (Computation)           : 99.77%
+% System (I/O)                 :  0.22%
+Total memory reserved          : 2000M
+Maximum memory used            : 8.44G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

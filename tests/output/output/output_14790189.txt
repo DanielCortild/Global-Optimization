@@ -1,0 +1,47 @@
+HRLA instantiating HRLA10
+Initializing Algorithm for HRLA10 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA10_1737582995.544628.pickle
+HRLA instantiating HRLA20
+Initializing Algorithm for HRLA20 with d=20, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA10_1737583085.7013521.pickle
+Started Loading Data for PostProcessor... Finished in 1.229444980621338 seconds
+Started Loading Data for PostProcessor... Finished in 0.9987936019897461 seconds
+
+###############################################################################
+Hábrók Cluster
+Job 14790189 for user s4279239
+Finished at: Wed Jan 22 22:58:13 CET 2025
+
+Job details:
+============
+
+Job ID                         : 14790189
+Name                           : HDb
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node111
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2025-01-22T19:48:43
+Start                          : 2025-01-22T22:55:07
+End                            : --
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:03:06
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

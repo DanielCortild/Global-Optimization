@@ -1,0 +1,53 @@
+HRLA instantiating HRLA
+Initializing Algorithm for HRLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [2, 3, 4, 5] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA_1738017111.5463028.pickle
+ULA instantiating ULA
+Initializing Algorithm for ULA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [2, 3, 4, 5] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/ULA_1738017199.228971.pickle
+OLA instantiating OLA
+Initializing Algorithm for OLA with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [2, 3, 4, 5] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/OLA_1738017249.3927958.pickle
+Started Loading Data for PostProcessor... Finished in 0.8084015846252441 seconds
+Started Loading Data for PostProcessor... Finished in 0.8034188747406006 seconds
+Started Loading Data for PostProcessor... Finished in 0.7980554103851318 seconds
+[SUCCESS] Saving plot to output/plots/Comparator_1738017313.0541222.png
+
+###############################################################################
+Hábrók Cluster
+Job 14830773 for user s4279239
+Finished at: Mon Jan 27 23:35:13 CET 2025
+
+Job details:
+============
+
+Job ID                         : 14830773
+Name                           : Compare
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node97
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2025-01-27T16:28:40
+Start                          : 2025-01-27T23:30:21
+End                            : --
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:04:52
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

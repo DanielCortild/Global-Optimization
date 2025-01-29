@@ -29,6 +29,8 @@ def plot_empirical_probabilities(post_processor, i, ax, p_idx, layout, dpi, tol,
         badge = rf"$\varepsilon={tol}$"
     elif comp == "a":
         badge = rf"$a={post_processor.As[i]}$"
+    elif comp == "a_tol":
+        badge = rf"$a={post_processor.As[i]}, \varepsilon={tol}$"
     elif comp == "d":
         badge = rf"$\varepsilon={tol}, d={post_processor.d}$"
     else:

@@ -11,7 +11,6 @@ src/GlobalOptimizationHRLA/Algorithms/Algorithm.py
 src/GlobalOptimizationHRLA/Algorithms/HRLA.py
 src/GlobalOptimizationHRLA/Algorithms/OLA.py
 src/GlobalOptimizationHRLA/Algorithms/ULA.py
-src/GlobalOptimizationHRLA/Algorithms/ULA_New.py
 src/GlobalOptimizationHRLA/Algorithms/__init__.py
 src/GlobalOptimizationHRLA/PostProcessing/Comparator.py
 src/GlobalOptimizationHRLA/PostProcessing/PostProcessor.py

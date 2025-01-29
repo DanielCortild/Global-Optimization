@@ -1,0 +1,48 @@
+HRLA instantiating HRLA10
+Initializing Algorithm for HRLA10 with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA10_1737975810.4834251.pickle
+HRLA instantiating HRLA20
+Initializing Algorithm for HRLA20 with d=20, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/HRLA20_1737976186.2431507.pickle
+Started Loading Data for PostProcessor... Finished in 0.8278913497924805 seconds
+Started Loading Data for PostProcessor... Finished in 1.4517908096313477 seconds
+[SUCCESS] Saving plot to output/plots/Comparator_1737976279.6270242.png
+
+###############################################################################
+Hábrók Cluster
+Job 14824509 for user s4279239
+Finished at: Mon Jan 27 12:11:20 CET 2025
+
+Job details:
+============
+
+Job ID                         : 14824509
+Name                           : Dim
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node26
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : RUNNING  
+Submit                         : 2025-01-27T11:40:04
+Start                          : 2025-01-27T12:02:00
+End                            : --
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:09:20
+Used CPU time                  : -- 
+% User (Computation)           : --
+% System (I/O)                 : --
+Total memory reserved          : 2000M
+Maximum memory used            : --
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

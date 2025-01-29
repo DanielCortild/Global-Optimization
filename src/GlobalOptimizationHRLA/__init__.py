@@ -1,2 +1,2 @@
-from .Algorithms import HRLA, ULA, OLA, ULA_New
+from .Algorithms import HRLA, ULA, OLA
 from .PostProcessing import Comparator, PostProcessor
