@@ -2,3 +2,7 @@ temp_output
 data
 venv
 __pycache__
+dist
+build
+GlobalOptimizationHRLA.egg-info
+.DS_Store
