@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -J Compare                               # Job name
+#SBATCH -J Steps                                # Job name
 #SBATCH -N 1                                    # Nodes requested
 #SBATCH -n 1                                    # Tasks requested
 #SBATCH --exclusive                             # No other jobs can share nodes with this job
@@ -9,4 +9,5 @@
 
 . ../venv/bin/activate
 module load Python/3.11.5-GCCcore-13.2.0
-python3 RastriginCompare.py $*
+python3 -m pip install .. --upgrade
+python3 RastriginStepSizes.py $*

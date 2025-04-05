@@ -27,8 +27,8 @@ dependencies = [
   ]
 
 [project.urls]
-"Homepage" = "https://github.com/DanielCortild/GlobalOptimization"
-"Bug Tracker" = "https://github.com/DanielCortild/GlobalOptimization/issues"
+"Homepage" = "https://github.com/DanielCortild/Global-Optimization"
+"Bug Tracker" = "https://github.com/DanielCortild/Global-Optimization/issues"
 
 [options]
 install_requires = [

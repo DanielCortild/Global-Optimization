@@ -1,9 +1,0 @@
-Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [01:21<2:14:45, 81.67s/it]Generating Samples:   2%|▏         | 2/100 [01:22<55:58, 34.27s/it]  Generating Samples:   3%|▎         | 3/100 [01:25<32:00, 19.80s/it]Generating Samples:   4%|▍         | 4/100 [01:25<19:24, 12.13s/it]Generating Samples:   7%|▋         | 7/100 [01:26<07:05,  4.58s/it]Generating Samples:  28%|██▊       | 28/100 [01:26<00:45,  1.57it/s]Generating Samples: 100%|██████████| 100/100 [01:26<00:00,  1.16it/s]
-Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [01:25<2:20:55, 85.41s/it]Generating Samples:  12%|█▏        | 12/100 [01:25<07:31,  5.13s/it] Generating Samples:  18%|█▊        | 18/100 [01:26<04:06,  3.01s/it]Generating Samples:  46%|████▌     | 46/100 [01:26<00:42,  1.26it/s]Generating Samples: 100%|██████████| 100/100 [01:26<00:00,  1.15it/s]
-Traceback (most recent call last):
-  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/RastriginDimension.py", line 31, in <module>
-    comparator.plot_empirical_probabilities_per_d_e(dpi=10, tols=[2, 4], ds=[10, 20], running=False)
-  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/../src/GlobalOptimizationHRLA/PostProcessing/Comparator.py", line 99, in plot_empirical_probabilities_per_d_e
-    plot_empirical_probabilities(post_processor, j, ax, i, layout, dpi, tol, running, "d_tol")
-                                                 ^
-NameError: name 'j' is not defined

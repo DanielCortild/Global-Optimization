@@ -1,0 +1,124 @@
+HRLA instantiating Rastrigin
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.001
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin_1743872450.4691422.pickle
+Started Loading Data for PostProcessor... Finished in 1.1583149433135986 seconds
+
+mean    K=14000
+------  ---------
+a=1     & 2.9742
+a=2     & 0.9201
+a=3     & 1.3633
+a=4     & 4.2161
+
+mean.T    a=1       a=2       a=3       a=4
+--------  --------  --------  --------  --------
+K=14000   & 2.9742  & 0.9201  & 1.3633  & 4.2161
+
+std    K=14000
+-----  ---------
+a=1    & 0.5954
+a=2    & 0.3348
+a=3    & 0.6172
+a=4    & 0.9068
+
+std.T    a=1       a=2       a=3       a=4
+-------  --------  --------  --------  --------
+K=14000  & 0.5954  & 0.3348  & 0.6172  & 0.9068
+HRLA instantiating Rastrigin
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.01
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin_1743872586.9663846.pickle
+Started Loading Data for PostProcessor... Finished in 1.0672438144683838 seconds
+
+mean    K=14000
+------  ---------
+a=1     & 3.4220
+a=2     & 0.9499
+a=3     & 0.4253
+a=4     & 0.3180
+
+mean.T    a=1       a=2       a=3       a=4
+--------  --------  --------  --------  --------
+K=14000   & 3.4220  & 0.9499  & 0.4253  & 0.3180
+
+std    K=14000
+-----  ---------
+a=1    & 0.5991
+a=2    & 0.2576
+a=3    & 0.1013
+a=4    & 0.0764
+
+std.T    a=1       a=2       a=3       a=4
+-------  --------  --------  --------  --------
+K=14000  & 0.5991  & 0.2576  & 0.1013  & 0.0764
+HRLA instantiating Rastrigin
+Initializing Algorithm for Rastrigin with d=10, M=100, N=10, K=14000, h=0.1
+Generating samples for a in [1, 2, 3, 4] with sim_annealing=False
+[SUCCESS] Samples dumped successfully into file temp_output/data/Rastrigin_1743872719.376475.pickle
+Started Loading Data for PostProcessor... Finished in 0.9724094867706299 seconds
+
+mean    K=14000
+------  ---------
+a=1     & 7.8402
+a=2     & 6.9790
+a=3     & 6.7803
+a=4     & 6.5700
+
+mean.T    a=1       a=2       a=3       a=4
+--------  --------  --------  --------  --------
+K=14000   & 7.8402  & 6.9790  & 6.7803  & 6.5700
+
+std    K=14000
+-----  ---------
+a=1    & 1.0318
+a=2    & 0.9592
+a=3    & 0.8422
+a=4    & 0.7669
+
+std.T    a=1       a=2       a=3       a=4
+-------  --------  --------  --------  --------
+K=14000  & 1.0318  & 0.9592  & 0.8422  & 0.7669
+
+###############################################################################
+Hábrók Cluster
+Job 16235780 for user s4279239
+Finished at: Sat Apr  5 19:06:15 CEST 2025
+
+Job details:
+============
+
+Job ID                         : 16235780
+Name                           : Steps
+User                           : s4279239
+Partition                      : regularshort
+Nodes                          : node112
+Number of Nodes                : 1
+Cores                          : 128
+Number of Tasks                : 1
+State                          : COMPLETED  
+Submit                         : 2025-04-05T18:59:17
+Start                          : 2025-04-05T18:59:17
+End                            : 2025-04-05T19:06:11
+Reserved walltime              : 03:00:00
+Used walltime                  : 00:06:54
+Used CPU time                  : 06:43:43 (Efficiency: 45.71%)
+% User (Computation)           : 99.18%
+% System (I/O)                 :  0.82%
+Total memory reserved          : 2000M
+Maximum memory used            : 17.04G
+Hints and tips      :
+ 1) The program efficiency is low. Your program is not using the assigned cores
+    effectively. Please check if you are using all the cores you requested.
+    You may also need to check the file in- and output pattern of your program.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/habrok/additional_information/job_hints
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

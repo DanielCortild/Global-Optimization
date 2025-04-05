@@ -1,9 +1,0 @@
-
-[notice] A new release of pip is available: 23.2.1 -> 24.3.1
-[notice] To update, run: pip install --upgrade pip
-Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [17:01<28:06:12, 1021.94s/it]Generating Samples:   8%|▊         | 8/100 [17:05<2:23:07, 93.34s/it]   Generating Samples: 100%|██████████| 100/100 [17:05<00:00, 10.25s/it]
-Traceback (most recent call last):
-  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000HD.py", line 17, in <module>
-    postprocessor.plot_empirical_probabilities(dpi=10, layout="32", tols=[3,4,5,6,7,8], running=False)
-    ^^^^^^^^^^^^^
-NameError: name 'postprocessor' is not defined. Did you mean: 'postprocessor10'?

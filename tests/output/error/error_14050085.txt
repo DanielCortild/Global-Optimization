@@ -1,69 +1,0 @@
-
-[notice] A new release of pip is available: 23.2.1 -> 24.3.1
-[notice] To update, run: pip install --upgrade pip
-Generating Samples:   0%|          | 0/100 [00:00<?, ?it/s]Generating Samples:   1%|          | 1/100 [11:48<19:29:15, 708.64s/it]Generating Samples:   2%|▏         | 2/100 [12:07<8:14:49, 302.95s/it] Generating Samples:   5%|▌         | 5/100 [12:16<2:19:37, 88.19s/it] Generating Samples:   8%|▊         | 8/100 [12:19<1:07:31, 44.04s/it]Generating Samples:  15%|█▌        | 15/100 [12:20<23:21, 16.49s/it] Generating Samples:  64%|██████▍   | 64/100 [12:20<01:22,  2.28s/it]Generating Samples:  67%|██████▋   | 67/100 [12:21<01:10,  2.13s/it]Generating Samples: 100%|██████████| 100/100 [12:21<00:00,  7.41s/it]
-Traceback (most recent call last):
-  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin100000HD.py", line 13, in <module>
-    samples_filename10 = algorithm10.generate_samples(As=[4,5,6,7,8], sim_annealing=False)
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/GlobalOptimizationHRLA/Algorithms/Algorithm.py", line 83, in generate_samples
-    dill.dump(samples_data, handle)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 252, in dump
-    Pickler(file, protocol, **_kwds).dump(obj)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 420, in dump
-    StockPickler.dump(self, obj)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 487, in dump
-    self.save(obj)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 1217, in save_module_dict
-    StockPickler.save_dict(pickler, obj)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 972, in save_dict
-    self._batch_setitems(obj.items())
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 998, in _batch_setitems
-    save(v)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 932, in save_list
-    self._batch_appends(obj)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 956, in _batch_appends
-    save(x)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 406, in save_numpy_array
-    pickler.save_reduce(_create_array, (f,args,state,npdict), obj=obj)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 692, in save_reduce
-    save(args)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 902, in save_tuple
-    save(element)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 902, in save_tuple
-    save(element)
-  File "/home4/s4279239/.local/lib/python3.11/site-packages/dill/_dill.py", line 414, in save
-    StockPickler.save(self, obj, save_persistent_id)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 560, in save
-    f(self, obj)  # Call unbound method with explicit self
-    ^^^^^^^^^^^^
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 803, in save_bytes
-    self._write_large_bytes(BINBYTES + pack("<I", n), obj)
-  File "/cvmfs/hpc.rug.nl/versions/2023.01/rocky8/x86_64/amd/zen3/software/Python/3.11.5-GCCcore-13.2.0/lib/python3.11/pickle.py", line 260, in write_large_bytes
-    write(payload)
-OSError: [Errno 122] Disk quota exceeded

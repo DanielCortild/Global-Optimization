@@ -1,6 +1,6 @@
 # Global Optimization through High-Resolution Sampling
 
-This package provides functions to run a global optimization algorithm, specifically designed to explore the properties of high-dimensional functions through High-Resolution sampling. It is based on the [following paper](https://arxiv.org/abs/2410.13737). The package includes tools for defining functions, setting optimization parameters, generating samples, and visualizing empirical probabilities.
+This package provides functions to run a global optimization algorithm, specifically designed to explore the properties of high-dimensional functions through High-Resolution sampling, based on [[1]](#1). The package includes tools for defining functions, setting optimization parameters, generating samples, and visualizing empirical probabilities.
 
 ## Installation
 
@@ -113,3 +113,7 @@ postprocessor.compute_tables(measured=[K], dpi=100, mode="mean", running="True""
 ## Examples
 
 Examples may in found in the [/examples](/examples) directory of the repository.
+
+## References
+
+<a id="1">[1]</a> Cortild, D., Delplancke, C., Oudjane, N., & Peypouquet, J. (2024). Global Optimization Algorithm through High-Resolution Sampling. arXiv preprint arXiv:2410.13737. https://doi.org/10.48550/arXiv.2410.13737 

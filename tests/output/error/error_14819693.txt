@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/scratch/s4279239/GlobalOptimization-DNLA/tests/Rastrigin14000.py", line 2, in <module>
-    import GlobalOptimizationHRLA as HRLA
-ModuleNotFoundError: No module named 'GlobalOptimizationHRLA'
