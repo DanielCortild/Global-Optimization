@@ -1,5 +1,6 @@
 import numpy as np
 import GlobalOptimizationHRLA as GO
+from PostProcessing import PostProcessor
 
 # Define Rastrigin function, its gradient and an initial distribution
 d = 10
@@ -15,6 +16,6 @@ for h in [0.01, 0.02]:
     samples_filename = algorithm.generate_samples(As=[1,2,3,4,5,6], sim_annealing=True)
 
     # Compute table of averages and standard deviations
-    postprocessor = GO.PostProcessor(samples_filename)
+    postprocessor = PostProcessor(samples_filename)
     postprocessor.compute_tables([50, 500], 1, "mean")
     postprocessor.compute_tables([50, 500], 1, "std")

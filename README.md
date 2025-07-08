@@ -10,6 +10,12 @@ The package is available through pip, and may be installed via:
 pip install GlobalOptimizationHRLA
 ```
 
+If running the package locally, you can install it using:
+
+```bash
+pip install .
+```
+
 ## Setup
 
 In order to use this package, you need to define:

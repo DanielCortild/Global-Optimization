@@ -5,6 +5,9 @@ from tqdm import tqdm
 import multiprocess as mp
 import dill
 
+from .Schedulers import ConstantScheduler, LinearScheduler
+
+
 class Algorithm:
     def __init__(self, d, M, N, K, h, title, U, dU, initial):
         print(f"Initializing Algorithm for {title} with d={d}, M={M}, N={N}, K={K}, h={h}")
@@ -26,23 +29,23 @@ class Algorithm:
         # Empty array to store iterates
         samples = np.zeros((self.N, self.K, self.d))
 
-        # Sample N samples
+        # Initialize the step-size scheduler
+        scheduler = LinearScheduler(0.1, a, self.K) if sim_annealing else ConstantScheduler(a)
+
+        # Generate N samples
         for n in range(self.N):
             # Initial sample
-            x0 = self.initial()
-            y0 = np.zeros(self.d)
+            x0, y0 = self.initial(), np.zeros(self.d)
 
             # Perform K iterations
             for k in range(self.K):
-                # Determine value of a
-                if sim_annealing:
-                    start_a = 0.1
-                    ak = (a - start_a) / self.K * k + start_a
-                else:
-                    ak = a
+                # Determine the inverse temperature parameter
+                ak = scheduler.get_inverse_temperature(k)
 
                 # Perform iteration
                 x0, y0 = self._iterate(x0, y0, ak)
+
+                # Store marginal sample
                 samples[n, k] = x0
 
         return samples
@@ -51,7 +54,7 @@ class Algorithm:
         print(f"Generating samples for a in {As} with sim_annealing={sim_annealing}")
 
         # Function to generate samples
-        generate_task = lambda task_nb: np.array([self.__get_samples(a, sim_annealing, seed=42+task_nb) for a in As])
+        generate_task = lambda task_nb: np.array([self.__get_samples(a, sim_annealing, seed=42 + task_nb) for a in As])
 
         # Generate samples in parallel
         with mp.Pool() as pool:
@@ -87,4 +90,3 @@ class Algorithm:
 
     def _iterate(self, x0, y0, a):
         raise NotImplementedError("The iterate method must be implemented in the child class")
-

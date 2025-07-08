@@ -1,6 +1,6 @@
 import numpy as np
-import sys
 import GlobalOptimizationHRLA as GO
+from PostProcessing import PostProcessor, Comparator
 
 # Define Rastrigin function, its gradient and an initial distribution
 d = 10
@@ -14,9 +14,9 @@ algorithm = GO.HRLA(d=d, M=100, N=10, K=100000, h=0.01, title=title, U=U, dU=dU,
 samples_filename = algorithm.generate_samples(As=[4,5,6,7,8], sim_annealing=False)
 
 # Plot empirical probabilities
-postprocessor = GO.PostProcessor(samples_filename)
+postprocessor = PostProcessor(samples_filename)
 postprocessor.plot_empirical_probabilities(dpi=100, layout="32", tols=[1,2,3,4,5,6], running=False)
 
 # Plot empirical probabilities
-postprocessor = GO.PostProcessor(samples_filename)
+postprocessor = PostProcessor(samples_filename)
 postprocessor.plot_empirical_probabilities(dpi=100, layout="22", tols=[1,2,3,4], running=False)
